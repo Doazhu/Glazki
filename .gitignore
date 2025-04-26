@@ -172,3 +172,55 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# === Python / FastAPI backend ===
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.db-journal
+*.log
+.env
+.env.*
+venv/
+.venv/
+env/
+ENV/
+users.db
+
+# === Node.js / React frontend ===
+registration-frontend/node_modules/
+registration-frontend/.pnp/
+registration-frontend/.pnp.js
+registration-frontend/coverage/
+registration-frontend/build/
+registration-frontend/dist/
+registration-frontend/.cache/
+registration-frontend/.DS_Store
+registration-frontend/npm-debug.log*
+registration-frontend/yarn-debug.log*
+registration-frontend/yarn-error.log*
+registration-frontend/.env.local
+registration-frontend/.env.development.local
+registration-frontend/.env.test.local
+registration-frontend/.env.production.local
+
+# === System ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === IDEs ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Misc ===
+*.swp
+*.swo
