@@ -1,0 +1,94 @@
+.registration-page {
+    background: linear-gradient(135deg, #667eea, #764ba2, #ff6b6b);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .registration-container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background: #667eea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #764ba2;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .register-page {
+    background: linear-gradient(135deg, #667eea, #764ba2, #ff6b6b);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .password-group {
+    position: relative;
+  }
+  
+  button {
+    margin-top: 1rem;
+  }
